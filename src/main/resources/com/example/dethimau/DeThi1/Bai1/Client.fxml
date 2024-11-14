@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.stage.Stage?>
+
+<VBox spacing="10.0" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.dethimau.DeThi1.Bai1.ClientController">
+    <Label text="Currency Converter Client" />
+    <TextField fx:id="usdAmountField" promptText="Nhập số tiền USD" />
+    <Button text="Gửi" onAction="#sendMessage" />
+    <Label fx:id="resultLabel" text="Kết quả chuyển đổi sẽ xuất hiện đây" />
+</VBox>

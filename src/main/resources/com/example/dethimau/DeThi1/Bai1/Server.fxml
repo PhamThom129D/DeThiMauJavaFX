@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.stage.Stage?>
+
+<VBox spacing="10.0" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dethimau.DeThi1.Bai1.ServerController">
+    <Label text="Chuyen doi tien te" />
+
+    <Label fx:id="clientMessage" text="Client" />
+    <Label fx:id="serverMessage" text="Server" />
+
+    <Button text="Gui ket qua" onAction="#send" />
+</VBox>
